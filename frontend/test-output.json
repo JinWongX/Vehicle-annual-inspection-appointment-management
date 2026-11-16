@@ -1,0 +1,597 @@
+{
+  "numTotalTestSuites": 36,
+  "numPassedTestSuites": 36,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 39,
+  "numPassedTests": 39,
+  "numFailedTests": 0,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "startTime": 1788766342712,
+  "success": true,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "ProtectedRoute"
+          ],
+          "fullName": " ProtectedRoute renders children when authenticated",
+          "status": "passed",
+          "title": "renders children when authenticated",
+          "duration": 111,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "ProtectedRoute"
+          ],
+          "fullName": " ProtectedRoute redirects to login when not authenticated",
+          "status": "passed",
+          "title": "redirects to login when not authenticated",
+          "duration": 21,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "ProtectedRoute"
+          ],
+          "fullName": " ProtectedRoute returns null while loading",
+          "status": "passed",
+          "title": "returns null while loading",
+          "duration": 15,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "RoleRoute"
+          ],
+          "fullName": " RoleRoute renders children when role matches",
+          "status": "passed",
+          "title": "renders children when role matches",
+          "duration": 19,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "RoleRoute"
+          ],
+          "fullName": " RoleRoute redirects to root when role does not match",
+          "status": "passed",
+          "title": "redirects to root when role does not match",
+          "duration": 20,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "RoleRoute"
+          ],
+          "fullName": " RoleRoute redirects to login when not authenticated",
+          "status": "passed",
+          "title": "redirects to login when not authenticated",
+          "duration": 16,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "App routing"
+          ],
+          "fullName": " App routing redirects unauthenticated user to login",
+          "status": "passed",
+          "title": "redirects unauthenticated user to login",
+          "duration": 66,
+          "failureMessages": []
+        }
+      ],
+      "startTime": 1788766395807,
+      "endTime": 1788766396077,
+      "status": "passed",
+      "message": "",
+      "name": "D:/workspace/Vehicle annual inspection appointment management/frontend/src/App.test.jsx"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "AuthContext"
+          ],
+          "fullName": " AuthContext restores user from localStorage on mount",
+          "status": "passed",
+          "title": "restores user from localStorage on mount",
+          "duration": 379,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "AuthContext"
+          ],
+          "fullName": " AuthContext handles corrupted stored user JSON gracefully",
+          "status": "passed",
+          "title": "handles corrupted stored user JSON gracefully",
+          "duration": 70,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "AuthContext"
+          ],
+          "fullName": " AuthContext does not restore user when token or user missing",
+          "status": "passed",
+          "title": "does not restore user when token or user missing",
+          "duration": 47,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "AuthContext"
+          ],
+          "fullName": " AuthContext login stores token and user then sets state",
+          "status": "passed",
+          "title": "login stores token and user then sets state",
+          "duration": 938,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "AuthContext"
+          ],
+          "fullName": " AuthContext registerAndLogin registers then logs in",
+          "status": "passed",
+          "title": "registerAndLogin registers then logs in",
+          "duration": 367,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "AuthContext"
+          ],
+          "fullName": " AuthContext logout clears storage and user state",
+          "status": "passed",
+          "title": "logout clears storage and user state",
+          "duration": 249,
+          "failureMessages": []
+        }
+      ],
+      "startTime": 1788766362947,
+      "endTime": 1788766365002,
+      "status": "passed",
+      "message": "",
+      "name": "D:/workspace/Vehicle annual inspection appointment management/frontend/src/context/AuthContext.test.jsx"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "Login"
+          ],
+          "fullName": " Login renders login form and submits",
+          "status": "passed",
+          "title": "renders login form and submits",
+          "duration": 15458,
+          "failureMessages": []
+        }
+      ],
+      "startTime": 1788766369442,
+      "endTime": 1788766384900,
+      "status": "passed",
+      "message": "",
+      "name": "D:/workspace/Vehicle annual inspection appointment management/frontend/src/pages/Login.test.jsx"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "Register"
+          ],
+          "fullName": " Register renders register form and submits",
+          "status": "passed",
+          "title": "renders register form and submits",
+          "duration": 20565,
+          "failureMessages": []
+        }
+      ],
+      "startTime": 1788766378645,
+      "endTime": 1788766399210,
+      "status": "passed",
+      "message": "",
+      "name": "D:/workspace/Vehicle annual inspection appointment management/frontend/src/pages/Register.test.jsx"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "request axios instance"
+          ],
+          "fullName": " request axios instance attaches Bearer token when inspection_token exists",
+          "status": "passed",
+          "title": "attaches Bearer token when inspection_token exists",
+          "duration": 69,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "request axios instance"
+          ],
+          "fullName": " request axios instance does not attach Authorization header when no token",
+          "status": "passed",
+          "title": "does not attach Authorization header when no token",
+          "duration": 9,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "request axios instance"
+          ],
+          "fullName": " request axios instance clears storage and redirects to login on 401",
+          "status": "passed",
+          "title": "clears storage and redirects to login on 401",
+          "duration": 48,
+          "failureMessages": []
+        }
+      ],
+      "startTime": 1788766391447,
+      "endTime": 1788766391575,
+      "status": "passed",
+      "message": "",
+      "name": "D:/workspace/Vehicle annual inspection appointment management/frontend/src/utils/request.test.js"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "DataExport"
+          ],
+          "fullName": " DataExport loads stations and exports data",
+          "status": "passed",
+          "title": "loads stations and exports data",
+          "duration": 20128,
+          "failureMessages": []
+        }
+      ],
+      "startTime": 1788766378488,
+      "endTime": 1788766398616,
+      "status": "passed",
+      "message": "",
+      "name": "D:/workspace/Vehicle annual inspection appointment management/frontend/src/pages/admin/DataExport.test.jsx"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "StationManagement"
+          ],
+          "fullName": " StationManagement Form mock is active",
+          "status": "passed",
+          "title": "Form mock is active",
+          "duration": 38,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "StationManagement"
+          ],
+          "fullName": " StationManagement displays stations and deletes one",
+          "status": "passed",
+          "title": "displays stations and deletes one",
+          "duration": 7895,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "StationManagement"
+          ],
+          "fullName": " StationManagement adds a new station",
+          "status": "passed",
+          "title": "adds a new station",
+          "duration": 17872,
+          "failureMessages": []
+        }
+      ],
+      "startTime": 1788766375302,
+      "endTime": 1788766401109,
+      "status": "passed",
+      "message": "",
+      "name": "D:/workspace/Vehicle annual inspection appointment management/frontend/src/pages/admin/StationManagement.test.jsx"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "StatisticsDashboard"
+          ],
+          "fullName": " StatisticsDashboard loads statistics and queries with date range",
+          "status": "passed",
+          "title": "loads statistics and queries with date range",
+          "duration": 10274,
+          "failureMessages": []
+        }
+      ],
+      "startTime": 1788766375138,
+      "endTime": 1788766385412,
+      "status": "passed",
+      "message": "",
+      "name": "D:/workspace/Vehicle annual inspection appointment management/frontend/src/pages/admin/StatisticsDashboard.test.jsx"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "UserManagement"
+          ],
+          "fullName": " UserManagement Form mock is active",
+          "status": "passed",
+          "title": "Form mock is active",
+          "duration": 22,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "UserManagement"
+          ],
+          "fullName": " UserManagement creates an owner user",
+          "status": "passed",
+          "title": "creates an owner user",
+          "duration": 20789,
+          "failureMessages": []
+        }
+      ],
+      "startTime": 1788766369134,
+      "endTime": 1788766389946,
+      "status": "passed",
+      "message": "",
+      "name": "D:/workspace/Vehicle annual inspection appointment management/frontend/src/pages/admin/UserManagement.test.jsx"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "Appointment"
+          ],
+          "fullName": " Appointment Form mock is active",
+          "status": "passed",
+          "title": "Form mock is active",
+          "duration": 26,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "Appointment"
+          ],
+          "fullName": " Appointment queries available stations and submits appointment",
+          "status": "passed",
+          "title": "queries available stations and submits appointment",
+          "duration": 23286,
+          "failureMessages": []
+        }
+      ],
+      "startTime": 1788766375372,
+      "endTime": 1788766398687,
+      "status": "passed",
+      "message": "",
+      "name": "D:/workspace/Vehicle annual inspection appointment management/frontend/src/pages/owner/Appointment.test.jsx"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "MyAppointments"
+          ],
+          "fullName": " MyAppointments lists appointments and cancels a booked one",
+          "status": "passed",
+          "title": "lists appointments and cancels a booked one",
+          "duration": 7488,
+          "failureMessages": []
+        }
+      ],
+      "startTime": 1788766368999,
+      "endTime": 1788766376487,
+      "status": "passed",
+      "message": "",
+      "name": "D:/workspace/Vehicle annual inspection appointment management/frontend/src/pages/owner/MyAppointments.test.jsx"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "Reminders"
+          ],
+          "fullName": " Reminders displays reminder statistics and list",
+          "status": "passed",
+          "title": "displays reminder statistics and list",
+          "duration": 12649,
+          "failureMessages": []
+        }
+      ],
+      "startTime": 1788766375352,
+      "endTime": 1788766388001,
+      "status": "passed",
+      "message": "",
+      "name": "D:/workspace/Vehicle annual inspection appointment management/frontend/src/pages/owner/Reminders.test.jsx"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "Reports"
+          ],
+          "fullName": " Reports displays reports and expands items",
+          "status": "passed",
+          "title": "displays reports and expands items",
+          "duration": 5684,
+          "failureMessages": []
+        }
+      ],
+      "startTime": 1788766368122,
+      "endTime": 1788766373806,
+      "status": "passed",
+      "message": "",
+      "name": "D:/workspace/Vehicle annual inspection appointment management/frontend/src/pages/owner/Reports.test.jsx"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "Vehicles"
+          ],
+          "fullName": " Vehicles Form mock is active",
+          "status": "passed",
+          "title": "Form mock is active",
+          "duration": 32,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "Vehicles"
+          ],
+          "fullName": " Vehicles loads and displays vehicles",
+          "status": "passed",
+          "title": "loads and displays vehicles",
+          "duration": 8358,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "Vehicles"
+          ],
+          "fullName": " Vehicles deletes a vehicle",
+          "status": "passed",
+          "title": "deletes a vehicle",
+          "duration": 6187,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "Vehicles"
+          ],
+          "fullName": " Vehicles opens add modal and submits new vehicle",
+          "status": "passed",
+          "title": "opens add modal and submits new vehicle",
+          "duration": 15556,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "Vehicles"
+          ],
+          "fullName": " Vehicles opens edit modal and updates vehicle without date",
+          "status": "passed",
+          "title": "opens edit modal and updates vehicle without date",
+          "duration": 10823,
+          "failureMessages": []
+        }
+      ],
+      "startTime": 1788766375569,
+      "endTime": 1788766416526,
+      "status": "passed",
+      "message": "",
+      "name": "D:/workspace/Vehicle annual inspection appointment management/frontend/src/pages/owner/Vehicles.test.jsx"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "StationAppointments"
+          ],
+          "fullName": " StationAppointments lists, filters and checks in appointments",
+          "status": "passed",
+          "title": "lists, filters and checks in appointments",
+          "duration": 17568,
+          "failureMessages": []
+        }
+      ],
+      "startTime": 1788766375489,
+      "endTime": 1788766393057,
+      "status": "passed",
+      "message": "",
+      "name": "D:/workspace/Vehicle annual inspection appointment management/frontend/src/pages/station/StationAppointments.test.jsx"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "StationCheckin"
+          ],
+          "fullName": " StationCheckin filters by plate and checks in",
+          "status": "passed",
+          "title": "filters by plate and checks in",
+          "duration": 11134,
+          "failureMessages": []
+        }
+      ],
+      "startTime": 1788766378707,
+      "endTime": 1788766389841,
+      "status": "passed",
+      "message": "",
+      "name": "D:/workspace/Vehicle annual inspection appointment management/frontend/src/pages/station/StationCheckin.test.jsx"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "",
+            "StationReportEntry"
+          ],
+          "fullName": " StationReportEntry Form mock is active",
+          "status": "passed",
+          "title": "Form mock is active",
+          "duration": 44,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "",
+            "StationReportEntry"
+          ],
+          "fullName": " StationReportEntry submits inspection report",
+          "status": "passed",
+          "title": "submits inspection report",
+          "duration": 19372,
+          "failureMessages": []
+        }
+      ],
+      "startTime": 1788766375631,
+      "endTime": 1788766395049,
+      "status": "passed",
+      "message": "",
+      "name": "D:/workspace/Vehicle annual inspection appointment management/frontend/src/pages/station/StationReportEntry.test.jsx"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+# dependencies / environments
+node_modules/
+venv/
+.venv/
+
+# python caches
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# test & coverage artifacts
+.coverage
+htmlcov/
+coverage/
+
+# build output
+dist/
+build/
+
+# databases
+*.db
+*.db-shm
+*.db-wal
+*.sqlite*
+
+# logs
+*.log
+
+# secrets / env
+.env
+.env.*
+!.env.example
+
+# editor & tool metadata
+.trae/
+.screenshots/
+.idea/
+.DS_Store
